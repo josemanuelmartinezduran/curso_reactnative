@@ -1,0 +1,10 @@
+Juan
+3
+Raul
+5
+Esteban
+16
+Guadalupe
+8
+Raquel
+12
