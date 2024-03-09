@@ -8,6 +8,8 @@ import ParentComponent from './components/ParentComponent';
 import SiblingOne from './components/SibilingOne';
 import SiblingTwo from './components/SibilingTwo';
 import SiblingThree from './components/SiblingThree';
+import TimerComponent from './components/TimerComponent';
+import LastValueComponent from './components/LastValueComponent';
 
 export default function App() {
   let general = "Variable Global"
@@ -21,14 +23,7 @@ export default function App() {
   }, 2000)
   return (
     <ScrollView>
-      <SiblingOne></SiblingOne>
-      <SiblingTwo></SiblingTwo>
-      <SiblingTwo></SiblingTwo>
-      <SiblingTwo></SiblingTwo>
-      <SiblingTwo></SiblingTwo>
-      <SiblingThree></SiblingThree>
-      <SiblingThree></SiblingThree>
-      <SiblingThree></SiblingThree>
+      <LastValueComponent></LastValueComponent>
     </ScrollView>
   );
 }
